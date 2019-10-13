@@ -13,6 +13,7 @@ def greet(who_to_greet):
     return greeting
 
 
-print(r.ok)
+r = 5
+
 print(greet("World"))
 print(greet("Bingbing"))
