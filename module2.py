@@ -1,11 +1,11 @@
-import math
-import sys
-from os import rename
+# import math
+# import sys
+# from os import rename
 
 import requests
 
-print(sys.version)  # show the version of python
-print(sys.executable)  # show the location of python executable
+# print(sys.version)  # show the version of python
+# print(sys.executable)  # show the location of python executable
 
 
 def greet(who_to_greet):
@@ -13,5 +13,6 @@ def greet(who_to_greet):
     return greeting
 
 
+print(r.ok)
 print(greet("World"))
 print(greet("Bingbing"))
